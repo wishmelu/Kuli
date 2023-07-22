@@ -2,7 +2,7 @@ import { BigNumber, Contract, providers, utils } from "ethers";
 import Head from "next/head";
 import React, { useEffect, useRef, useState } from "react";
 import Web3Modal from "web3modal";
-import { TOKEN_CONTRACT_ABI, 0xbd26Af786DAF19695F0Ea8Cb7994BF2cB471eB8C } from "../constants";
+import { TOKEN_CONTRACT_ABI, TOKEN_CONTRACT_ADDRESS } from "../constants";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
